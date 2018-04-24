@@ -1,0 +1,43 @@
+﻿生成启动时间为 2016/6/13 20:24:37。
+     1>项目“F:\miniSQL\miniSQL\miniSQL.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\miniSQL.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\minisql\minisql\main.cpp(24): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\minisql\minisql\bplustree.h(62): warning C4520: “Node<T>”: 指定了多个默认构造函数
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\minisql\minisql\bplustree.h(184): 参见对正在编译的类 模板 实例化“Node<T>”的引用
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\minisql\minisql\bplustree.h(179): 编译类 模板 成员函数“void BplusTree<T>::insert(T &,Pointer)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 f:\minisql\minisql\main.cpp(10): 参见对正在编译的类 模板 实例化“BplusTree<T>”的引用
+                 with
+                 [
+                     T=int
+                 ]
+       Link:
+         D:\VS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\miniSQL\Debug\miniSQL.exe" /NOLOGO opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\miniSQL.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\miniSQL\Debug\miniSQL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\miniSQL\Debug\miniSQL.lib" /MACHINE:X86 Debug\Interpret.obj
+         Debug\main.obj
+         LINK : 没有找到 F:\miniSQL\Debug\miniSQL.exe 或上一个增量链接没有生成它；正在执行完全链接
+         miniSQL.vcxproj -> F:\miniSQL\Debug\miniSQL.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\miniSQL\Debug\miniSQL.exe;#1" /manifest Debug\miniSQL.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\miniSQL.unsuccessfulbuild”。
+         正在对“Debug\miniSQL.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\miniSQL\miniSQL\miniSQL.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.95
